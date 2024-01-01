@@ -85,7 +85,7 @@ export default function Home() {
           </div>
 </div>
 
-<p>Email me <a href='mailto:evangelosniko@outlook.com'> {`evangelosniko@outlook.com`}</a></p>
+
         </div>
 
        </div>
