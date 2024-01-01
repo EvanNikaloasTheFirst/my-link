@@ -41,7 +41,7 @@ export default function Home() {
             </div>
 
             <div className={styles.gridItem}>
-            <a href="https://evangelos-nikaloas.uk"> Portfolio
+            <a href=""> Portfolio (In construction)
               <img src="/icons/portfolio.png" alt="Check out my portfolio"  className={styles.logo}/>
               </a>
             </div>
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
 
             <div className={styles.gridItem}>
-            <a href="https://www.linkedin.com/in/evangelos-nikoloas-empochontsif/">inkedIn
+            <a href="https://www.linkedin.com/in/evangelos-nikoloas-empochontsif/">LinkedIn
               <img src="/icons/linkedin.png" alt="Connect with me on Linked in" className={styles.logo}/>
               </a>
             </div>
