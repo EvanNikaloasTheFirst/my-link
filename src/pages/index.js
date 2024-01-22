@@ -36,7 +36,7 @@ export default function Home() {
             </div>
 
             <div className={styles.gridItem}>
-               <DownloadPDF link="/Personal-branding.pdf" text="Build your brand" />
+               <DownloadPDF link="/PersonalBranding-by-ev-codes.pdf" text="Build your brand" />
 
             </div>
 
