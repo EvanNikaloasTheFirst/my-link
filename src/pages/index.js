@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from "next/link";
 import React from 'react';
+import DownloadPDF from '../../components/DownloadPDF';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,15 +30,14 @@ export default function Home() {
           <div className={styles.gridContainer}>
 
             <div className={styles.gridItem}>
-            <a href={`mailto:${emailAddress}`}> Need a website?
+            <a href="https://www.prymebyte.site/"> Need a website?
               <img src="/icons/www.png" alt="I build websites and app" class="logo"/>
               </a>
             </div>
 
             <div className={styles.gridItem}>
-            <a href="https://www.instagram.com/stories/highlights/18031674523696311/"> Build your  brand!
-              <img src="/icons/brand.png" alt="Build your brand as a developer" className={styles.logo}/>
-              </a>
+               <DownloadPDF link="/Personal-branding.pdf" text="Build your brand" />
+
             </div>
 
             <div className={styles.gridItem}>
