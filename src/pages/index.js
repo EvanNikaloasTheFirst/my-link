@@ -30,7 +30,7 @@ export default function Home() {
           <div className={styles.gridContainer}>
 
             <div className={styles.gridItem}>
-            <a href="https://www.prymebyte.site/"> Need a website?
+            <a href="https://www.elegantx.site/"> Need a website?
               <img src="/icons/www.png" alt="I build websites and app" class="logo"/>
               </a>
             </div>
